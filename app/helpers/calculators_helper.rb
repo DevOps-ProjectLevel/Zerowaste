@@ -1,0 +1,58 @@
+# frozen_string_literal: true
+
+module CalculatorsHelper
+  def collection_product_category
+    [t(".form.budgetary"),
+      t(".form.medium"),
+      t(".form.premium")]
+  end
+
+  def years_number
+    (0..2).map { |year| t("calculators.date.years", count: year) }
+  end
+
+  def month_number(style)
+    case style
+    when "old" then (0..11).map { |month| t("calculators.date.months", count: month) }
+    when "new" then (0..11).to_a
+    end
+  end
+
+  def link_to_external(text:, url:, **options)
+    link_to(url, target: "_blank", rel: "noopener", **options) do
+      concat(
+        content_tag(:span, text, class: "ml-0 pt-1") +
+        content_tag(:i, nil, class: "fas fa-external-link-alt ml-1.5")
+      )
+    end
+  end
+
+  def mhc_calculator_items
+    [{ image: "pads_bought.png", data_target: "padsUsed", unit: t(".pieces"), text: t(".bought_products") },
+      "arrow",
+      { image: "pads_to_buy.png", data_target: "padsToBeUsed", unit: t(".pieces"), text: t(".will_buy_products") },
+      { image: "money_spent_2.png", data_target: "moneySpent", unit: t(".unit"), text: t(".money_spent") },
+      "arrow",
+      { image: "money_to_spent_2.png", data_target: "moneyWillBeSpent", unit: t(".unit"), text: t(".money_will_be_spent") }]
+  end
+
+  def new_calculator_items
+    [{ image: "diapers_bought_2.png", data_target: "diapersUsed", unit: t(".pieces"), text_target: "boughtDiapersPluralize", text: t(".bought_diapers", count: 0) },
+      "arrow",
+      { image: "diapers_to_buy_2.png", data_target: "diapersToBeUsed", unit: t(".pieces"), text_target: "willBuyDiapersPluralize", text: t(".will_buy_diapers", count: 0) },
+      { image: "money_spent_2.png", data_target: "moneySpent", unit: t(".unit"), text: t(".money_spent") },
+      "arrow",
+      { image: "money_to_spent_2.png", data_target: "moneyWillBeSpent", unit: t(".unit"), text: t(".money_will_be_spent") }]
+  end
+
+  def old_calculator_items
+    [{ image: "diapers_to_buy.png", data_target: "diapersToBeUsed", text_target: "willBuyDiapersPluralize", text: t(".will_buy_diapers", count: 0) },
+      { image: "diapers_bought.png", data_target: "diapersUsed", text_target: "boughtDiapersPluralize", text: t(".bought_diapers", count: 0) },
+      { image: "money_to_spent.png", data_target: "moneyWillBeSpent", text: t(".money_will_be_spent") },
+      { image: "money_spent.png", data_target: "moneySpent", text: t(".money_spent") }]
+  end
+
+  def sanitize_content(notes)
+    sanitize(notes, tags: ["p", "strong", "em", "ul", "li", "a", "div", "span", "img"], attributes: ["href", "target", "class", "src", "alt", "style"])
+  end
+end

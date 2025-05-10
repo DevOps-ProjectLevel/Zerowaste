@@ -1,0 +1,1063 @@
+uk:
+  en: English
+  buttons:
+    save: "Зберегти"
+    update: "Оновити"
+    create: "Створити"
+    cancel: "Скасувати"
+    revert: "Скинути"
+    back: "Назад"
+  views:
+    pagination:
+      previous: "&lsaquo; Поперед."
+      next: "Наступна &rsaquo;"
+      truncate: "&hellip;"
+  shared:
+    under_construction:
+      title: "Ця сторінка на реконструкції"
+      text: "Ця сторінка тимчасово недоступна у зв'язку з оновленнями. Незабаром очікуйте на цікаві зміни!"
+      text_update: "Слідкуйте за новинами!"
+      alt_text: "На реконструкції"
+    account_navbar:
+      homepage: "Головна сторінка"
+      calculators: "Калькулятори"
+      histories: "Історія"
+      users: "Користувачі"
+      messages: "Повідомлення"
+      site_settings: "Налаштування сайту"
+      categories: "Категорії"
+      products: "Продукти"
+      zerowaste_logo: "логотип ZeroWaste"
+    account_footer:
+      created_with: "Створено з"
+      by: "в"
+      softserve_ita:
+  calculators:
+    description_block:
+      description_block_html:
+        "Ці результати є приблизними, точні цифри для вашої сімʼї можуть бути дещо іншими
+        та залежать від ваших щоденних звичок та обраної марки підгузків. На будь-якому етапі користування підгузками
+        є можливість зменшити рівень їхнього використання. Запрошуємо вас дізнатися більше про методи, як це можна
+        зробити, та про достmупні багаторазові альтернативи одноразовим дитячим підгузкам. А ще ви можете почитати
+        докладніше про те, %{calculate_link} кількість та вартість підгузків,
+        або %{contact_link}, якщо маєте інші запитання."
+      calculate_link: "як ми розраховуємо"
+      contact_us_link: "написати нам"
+      use_less: "ЯК ЗМЕНШИТИ ВИКОРИСТАННЯ"
+      method_link: "https://zerowastelviv.org.ua/diaper-calculator-method/"
+      contact_link: "https://zerowastelviv.org.ua/kontakty/"
+      use_less_link: "https://zerowastelviv.org.ua/zero-waste-nappies/"
+    mhc_description_block:
+      mhc_description_block_html:
+        "Ці дані є орієнтовними, і точні значення можуть варіюватися залежно від ваших індивідуальних потреб та звичок.
+        Використання багаторазових менструальних засобів може значно зменшити кількість відходів і стати економічно
+        вигідною альтернативою одноразовим продуктам. Ви можете оптимізувати використання цих засобів на будь-якому етапі,
+        що дозволить знизити витрати та підвищити комфорт. Ми рекомендуємо ознайомитися з методами ефективного використання
+        багаторазових менструальних продуктів та їх перевагами. Більш %{information_link} про розрахунки кількості та вартості
+        цих продуктів можна знайти в наших матеріалах або звернувшись %{contact_link} з вашими питаннями."
+      information_link_text: "детальну інформацію"
+      contact_link_text: "до нас"
+      information_link: "https://docs.google.com/document/d/1xu6cch-Ner9OEpU4_TV5suIUsuVcWpgiUuX6QrOgaL4"
+      contact_link: "https://zerowastelviv.org.ua/kontakty/"
+      use_less: "ЯК ЗМЕНШИТИ ВИКОРИСТАННЯ"
+      use_less_link: "https://zerowastelviv.org.ua/reuse-zero-waste-menstruatsii/"
+    index:
+      meta-title: "Калькулятори"
+    mhc_calculator:
+      calculator_name: "Калькулятор менструальних гігієнічних засобів"
+      form:
+        user_age: "Ваш вік"
+        menstruation_age: "Вік початку менструації"
+        menopause_age: "Вік настання менопаузи"
+        average_menstruation_cycle_duration: "Середня тривалість менструального циклу (дні)"
+        pads_per_cycle: "Середня кількість засобів гігієни за цикл"
+        pad_category: "Категорія засобів гігієни"
+        budgetary: "Бюджетна"
+        average: "Середня"
+        premium: "Преміум"
+      bought_products: "ви вже використали"
+      will_buy_products: "ви ще використаєте"
+      money_spent: "ви вже витратили"
+      money_will_be_spent: "ви ще витратите"
+      pieces: "шт."
+      unit: "грн"
+    new_calculator:
+      diaper_сalculator: "Калькулятор підгузків"
+      form:
+        description: "Вік дитини:"
+        price: "Цінова категорія"
+        childs_years_label: "р."
+        childs_months_label: "міс."
+        budgetary: "бюджетна"
+        medium: "середня"
+        premium: "преміум"
+      bought_diapers: "ви вже використали"
+      will_buy_diapers: "ви ще використаєте"
+      money_spent: "ви вже витратили"
+      money_will_be_spent: "ви ще витратите"
+      pieces: "шт."
+      unit: "грн"
+    old_calculator:
+      form:
+        description: "Вік дитини:"
+        years_prompt: "повних років"
+        months_prompt: "місяців"
+      bought_diapers:
+        one: "підгузок ви вже використали"
+        few: "підгузки ви вже використали"
+        many: "підгузків ви вже використали"
+        other: "підгузків ви вже використали"
+      will_buy_diapers:
+        one: "підгузок ви ще використаєте"
+        few: "підгузки ви ще використаєте"
+        many: "підгузків ви ще використаєте"
+        other: "підгузків ви ще використаєте"
+      money_spent: "грн ви вже витратили"
+      money_will_be_spent: "грн ви ще витратите"
+    errors:
+      year_and_month_error_msg: "Будь ласка, виберіть, скільки років та місяців дитині"
+      year_error_msg: "Будь ласка, виберіть, скільки років дитині"
+      month_error_msg: "Будь ласка, виберіть, скільки місяців дитині"
+      presence_error_msg: "Поле \"%{field}\" відсутнє"
+      length_error_msg: "Поле \"%{field}\" повинно бути в проміжку від %{from} до %{to}"
+    show:
+      welcome_header: "Ласкаво просимо до ZeroWaste"
+      calculate_result_button: "Pозрахувати"
+      bought_diapers: "Кількість використаних підгузків"
+      will_buy_diapers: "Кількість підгузків, які ще будуть використані до моменту, коли дитина перейде на звичайну білизну"
+      money_spent: "Вартість використаних підгузків"
+      money_will_be_spent: "Вартість підгузків, які ще будуть використані до моменту, коли дитина перейде на звичайну білизну"
+      image_alt: "Ваги"
+    buttons:
+      to_main: "На головну"
+      calculate: "Розрахувати"
+    index:
+      meta-title: "Калькулятори"
+      id_column: "№"
+      calculator_name: "Назва"
+      calculator_actions: "Дії"
+    date:
+      months:
+        one: "%{count} місяць"
+        few: "%{count} місяці"
+        many: "%{count} місяців"
+        other: "%{count} місяців"
+      years:
+        one: "%{count} рік"
+        few: "%{count} роки"
+        many: "%{count} років"
+        other: "%{count} років"
+  layouts:
+    navigation:
+      about_us: "Про нас"
+      admin: "Адміністратор"
+      calculate: "Калькулятор підгузків"
+      log_out: "Вийти"
+      mhc_calculator: "Калькулятор прокладок"
+      sign_up: "Зареєструватися"
+      log_in: "Увійти"
+      contact_us: "Зв'яжіться з нами"
+      contacts: "%{contacts_uk:Контакти}"
+      local_lang: "English"
+      toggle_menu: "Перемкнути меню"
+      open_menu: "Іконка Відкрити меню"
+      close_menu: "Іконка Закрити меню"
+    homepage:
+      homepage_title: "Вас вітає калькулятор підгузків"
+      description: "Цей калькулятор дає змогу порахувати, скільки одноразових підгузків ваша дитина вже використала та ще використає до того часу, як перейде на звичайну білизну. А також визначити вартість уже куплених підгузків та суму, яку ви витратите на них у майбутньому."
+      calculate: "Почати"
+      visit_website: "Наш сайт"
+  mailer:
+    welcome_mail:
+      subject: "Ласкаво просимо до ZeroWaste!"
+  user_mailer:
+    welcome_email:
+      greeting: "Ласкаво просимо до ZeroWaste, %{name}"
+      login_info: "Ви успішно зареєструвалися на zerowaste.com, ваші дані для входу"
+      email: "Електронна пошта: %{email}"
+      password: "Пароль: %{password}"
+      to_login: "Щоб увійти на сайт, просто перейдіть за цим посиланням"
+      thanks: "Дякуємо за приєднання та бажаємо гарного дня!"
+  messages:
+    new:
+      meta-title: "Зв'яжіться з нами"
+      contact_us_header: "Зв'яжіться з нами"
+      email: "Електронна пошта"
+      message: "Повідомлення"
+      title: "Заголовок"
+      send: "Надіслати"
+      title_hint: "Заголовок (мінімум 5 символів)"
+      message_hint: "Напишіть ваше повідомлення тут (мінімум 20 символів)"
+      company_address: "Адреса компанії"
+      about_us: "Про нас"
+  sitemap:
+    index:
+      sitemap: "Мапа сайту"
+      homepage: "Головна сторінка"
+      about_us: "Про нас"
+      calculator-diapers: "Калькулятор підгузків"
+      calculators: "Калькулятори"
+      message: "Напишіть нам повідомлення"
+  404_page:
+    title: "Упс! Сторінку не знайдено"
+    description: "Сторінка, яку ви шукаєте, не існує. Можливо, її було видалено або посилання некоректне. Перевірте URL або поверніться на головну сторінку."
+  422_page:
+    title: "Некоректний запит"
+    description: "Щось пішло не так з надісланими даними. Перевірте введені дані та спробуйте ще раз або поверніться на попередню сторінку."
+  500_page:
+    title: "Внутрішня помилка сервера"
+    description: "Ми зіткнулися з неочікуваною проблемою. Будь ласка, спробуйте пізніше або зверніться в службу підтримки, якщо проблема не зникне."
+  about_us:
+    title: "Про нас"
+    description:
+      description: "Інформація про організацію ZeroWaste та команду "
+      first_paragraph: "Ми працюємо в багатьох напрямках на користь чистого майбутнього та сталого розвитку нашого міста та країни."
+      second_paragraph: "Zero Waste закликає нас раціонально та свідомо використовувати ресурси."
+      third_paragraph: "Основна мета zero waste – перейти до економіки замкненого циклу, де немає сміття як такого, а те, що називають сміттям, стає цінним ресурсом."
+  our_team:
+    title: "Наша команда"
+    description:
+      "Zero Waste Lviv та SoftServe представляють калькулятор – онлайн-інструмент для розрахунку кількості
+      одноразових та повторно використовуваних предметів. Калькулятор розроблений як частина благодійної платформи Open Tech.
+      Технічна реалізація здійснюється студентами SoftServe Academy."
+  logo:
+    zerowaste_logo: "Логотип Zero Waste"
+    softserve_ita_logo: "Логотип Softserve Academy"
+  link:
+    zerowaste_link: "https://zerowastelviv.org.ua/"
+    softserve_ita_link: "https://career.softserveinc.com/uk-ua/softserve-academy"
+  account:
+    account:
+      edit:
+        current_password_label: "Поточний пароль:"
+        new_password_label: "Новий пароль:"
+        confirm_password_label: "Підтвердіть новий пароль:"
+        change_password_button: "Змінити пароль"
+    messages:
+      index:
+        meta-title: "Повідомлення"
+        search_placeholder: "Пошук"
+        search_button: "Шукати"
+        table:
+          title: "Заголовок"
+          email: "Електронна пошта"
+          message: "Повідомлення"
+          show_more: "Докладніше"
+      show:
+        header: "Інформація"
+        table:
+          title_col: "Заголовок"
+          message_col: "Повідомлення"
+          email_col: "Електронна пошта"
+          time_col: "Дата"
+    categories:
+      index:
+        meta-title: "Категорії"
+        search_placeholder: "Пошук"
+        search_button: "Шукати"
+        table:
+          title: "Назва"
+          actions: "Дії"
+          priority: "Пріоритет"
+          edit: "Відредагувати"
+          delete: "Видалити"
+        add_category_button: "Додати категорію"
+        confirm_delete: "Видалити категорію?"
+        cannot_delete: "Ви не можете видалити основну категорію."
+      edit:
+        form:
+          update_category_button: "Оновити категорію"
+      new:
+        form:
+          create_category_button: "Створити категорію"
+    products:
+      index:
+        meta-title: "Продукти"
+        table:
+          title: "Назва"
+          prices: "Ціни"
+          actions: "Дії"
+          edit: "Відредагувати"
+          delete: "Видалити"
+        add_product_button: "Додати продукт"
+        confirm_delete: "Видалити продукт?"
+      show:
+        table:
+          title: "Назва"
+          prices: "Ціни"
+          actions: "Дії"
+        confirm_delete: "Видалити продукт?"
+      partials:
+        new:
+          form:
+            title: "Назва"
+            form:
+              sum: "Сума"
+              create_product_button: "Створити продукт"
+              error_sum: "Поле може містити лише цифри"
+        edit:
+          form:
+            title: "Назва"
+            form:
+              sum: "Сума"
+              update_product_button: "Оновити продукт"
+              error_sum: "Поле може містити лише цифри"
+      created: "Продукт був успішно створений"
+      updated: "Продукт був успішно оновлений"
+      deleted: "Продукт був успішно видалений"
+    users:
+      index:
+        meta-title: "Користувачі"
+        main_header: "Адмінпанель"
+        add_user_button: "Створити нового користувача"
+        confirm_block: "Ви справді хочете заблокувати цього користувача?"
+        confirm_unblock: "Ви справді хочете розблокувати цього користувача?"
+        confirm_delete: "Ви справді хочете видалити цього користувача?"
+        table:
+          email_col: "Електронна пошта"
+          first_name: "Ім'я"
+          last_name: "Прізвище"
+          last_visit_col: "Час останнього візиту"
+          show: "Показати"
+          edit: "Відредагувати"
+          ban: "Заблокувати"
+          delete: "Видалити"
+      new:
+        table:
+          create_new_user: "Створіть користувача"
+        form:
+          first_name_label: "Ім'я"
+          last_name_label: "Прізвище"
+          password_hint: "Мінімум 8 символів"
+          create_user_button: "Створити нового користувача"
+          send_credentials_email: "Надіслати електронного листа з даними користувача"
+      edit:
+        avatar: "Фото профілю користувача"
+        table:
+          edit_user_info: "Відредагувати інформацію"
+        form:
+          name_label: "Ім'я"
+          surname_label: "Прізвище"
+          password_hint: "Залиште порожнім, якщо не хочете змінювати"
+          avatar_hint: "Розмір зображення не має перевищувати 2 Мб. Дозволені типи файлів: PNG, JPG та JPEG"
+          update_user_button: "Оновити інформацію"
+      show:
+        header: "Інформація про користувача"
+        table:
+          email_col: "Електронна пошта"
+          first_name_col: "Ім'я"
+          last_name_col: "Прізвище"
+          country_col: "Країна"
+          last_sign_in_col: "Востаннє на сайті"
+          current_IP_col: "Поточна IP-адреса"
+          last_IP_col: "Остання IP-адреса"
+          ban_col: "Статус"
+          blocked_label: "Заблокований"
+          unblocked_label: "Розблокований"
+    calculators:
+      index:
+        meta-title: "Калькулятори"
+        add_calculator_button: "Додати калькулятор"
+        confirm_delete: "Ви справді хочете видалити калькулятор?"
+        table:
+          calculator_slug: "Шлях"
+          calculator_name: "Назва"
+          calculator_actions: "Дії"
+          show: "Показати"
+          edit: "Відредагувати"
+          delete: "Видалити"
+      edit:
+        add_new_field_label: "Додати нове поле"
+        form:
+          select_field_kind_label: "Оберіть поле"
+          select_field_type_label: "Оберіть тип поля"
+          form_label: "Форма"
+          parameters_label: "Параметри"
+          results_label: "Результати"
+          no_fields_yet_label: "Полів поки нема"
+          update_calculator_button: "Оновити калькулятор"
+      new:
+        create_calculator_button: "Зберегти калькулятор"
+        cancel_button: "Скасувати"
+        prohibited_to_update: " перешкоджають оновленню калькулятора"
+        prohibited_to_save: " перешкоджають збереженню калькулятора"
+        error: "помилки"
+        uk_notes: "Нотатки українською"
+        en_notes: "Нотатки англійською"
+    site_settings:
+      edit:
+        meta-title: "Налаштування сайту"
+        site_settings: "Налаштування сайту"
+        site_features: "Особливості сайту"
+        rails_db_description: "Доступ до бази даних (лише перегляд)"
+        dev_features: "Для розробників"
+        diapers_categories: "Категорії підгузків"
+        apply_button: "Зберегти"
+        confirm_default: "Ви впевнені, що бажаєте повернути налаштування за замовчуванням для назви та іконки сайту?"
+    diapers_periods:
+      partials:
+        edit:
+          form:
+            edit_name: "Редагувати періоди для підгузків"
+            period_start: "Початок періоду"
+            period_end: "Кінець періоду"
+            usage_amount: "Обсяг використання "
+            price: "Ціна"
+            back_button: "Назад"
+            cannot_edit_period: "Ви не можете редагувати початок та кінець періоду"
+        index:
+          delete_button:
+            confirm_delete: "Ви впевнені, що бажаєте видалити цей період?"
+            cannot_delete_category: "Ви не можете видалити періоди в основній категорії."
+            cannot_delete_period: "Ви можете видалити лише останній період."
+          add_new_link:
+            add_new: "Додати новий період"
+          content:
+            periods_for: "Періоди підгудків для категорії:"
+            confirm_delete: "Ви впевнені, що бажаєте видалити цей період?"
+            period_start: "Початок періоду"
+            period_end: "Кінець періоду"
+            usage_amount: "Обсяг використання "
+            price: "Ціна"
+            table:
+              edit: "Редагувати"
+              delete: "Видалити"
+            add_new: "Додати новий період"
+            back_button: "Назад"
+            warning: "Ця категорія не відображається в калькуляторі, оскільки вона не охоплює всі періоди. Будь ласка, додайте нові періоди, щоб категорія охоплювала 30 місяців."
+            cannot_delete: "Ви не можете видалити періоди в основній категорії."
+        new:
+          form:
+            new_period: "Новий період для підгузків категорії:"
+            period_start: "Початок періоду"
+            period_end: "Кінець періоду"
+            usage_amount: "Обсяг використання "
+            price: "Ціна"
+            back_button: "Назад"
+            cannot_edit_start_period: "Ви не можете редагувати початок періоду"
+      categories:
+        partials:
+          available:
+            content:
+              available: "Оберіть категорію:"
+              no_categories_available: "Немає доступних категорій. Створіть нову категорію."
+              category_name: "Назва категорії"
+              confirm_delete: "Ви впевнені, що бажаєте видалити всі періоди?"
+              back_button: "Назад"
+              table:
+                add: "Додати"
+          with_periods:
+            content:
+              category_name: "Назва категорії"
+              confirm_delete: "Ви впевнені, що бажаєте видалити всі періоди?"
+              table:
+                show: "Показати"
+                delete: "Видалити"
+              no_categories: "Не знайдено періодів для підгузків. Додайте новий зі списку доступних."
+              add_button: "Додати"
+              tooltip: "Ця категорія не відображається в Калькуляторі, оскільки вона не охоплює всі періоди."
+              cannot_delete_category: "Ви не можете видалити періоди в основній категорії."
+    feature_flags:
+      submit_button: "Зберегти"
+      new_calculator_design:
+        name: "Увімкнути новий дизайн калькулятора"
+      show_calculators_list:
+        name: "Показати калькулятори користувачам"
+      sandbox_mode:
+        name: "Увімкнути режим пісочниці"
+      constructor_status:
+        name: "Увімкнути конструктор калькуляторів"
+      mhc_calculator_status:
+        name: "Увімкнути калькулятор продуктів жіночої гігієни"
+    sessions:
+      new:
+        log_in_header: "Увійти"
+        log_in_button: "Увійти"
+        form:
+          email: "Електронна пошта"
+          password: "Пароль"
+    shared:
+      links:
+        forgot_your_password: "Забули пароль?"
+        log_in: "Увійти"
+    confirmations:
+      new:
+        resend_confirmation_instructions_header: "Повторно надіслати інструкцію з підтвердженням"
+        resend_confirmation_instructions_button: "Повторно надіслати інструкцію з підтвердженням"
+    mailer:
+      confirmation_instructions:
+        greetings_to_user: "Ласкаво просимо, %{recipient}!"
+        confirmation_email_through_link: "Ви можете підтвердити свій акаунт за посиланням нижче:"
+        confirmation_account_link: "Підтвердити мій акаунт"
+      email_changed:
+        greeting: Привіт, %{recipient}!
+        message_confirmed: "Ми пишемо, щоб повідомити, що вашу електронну пошту було змінено на %{email}."
+        message_unconfirmed: "Ми пишемо, щоб повідомити, що вашу електронну пошту буде змінено на %{email}."
+      password_change:
+        greeting: "Привіт, %{recipient}!"
+        successful_change: "Ми пишемо, щоб повідомити про зміну вашого пароля"
+      reset_password_instructions:
+        greeting: "Привіт, %{recipient}!"
+        change_password_link: "Змінити мій пароль"
+        request_change_password: "Хтось надіслав запит на зміну вашого пароля. Ви можете зробити це за посиланням нижче:"
+        ignore_email: "Якщо ви не надсилали запит, будь ласка, проігноруйте цей лист."
+        access_to_changing: "Ваш пароль не буде змінено, доки ви не перейдете за посиланням вище та не зміните його."
+      unlock_instructions:
+        greeting: "Привіт, %{recipient}!"
+        locked_message: "Ваш акаунт було заблоковано через надто велику кількість неуспішних спроб увійти."
+        unlock_your_account: "Натисніть на посилання нижче, щоб розблокувати ваш акаунт:"
+        unlock_link: "Розблокувати мій акаунт"
+    unlocks:
+      new:
+        resend_unlock_instructions_header: "Повторно надіслати інструкцію з розблокування"
+        resend_unlock_instructions_button: "Повторно надіслати інструкцію з розблокування"
+    passwords:
+      password:
+        blank: "Новий пароль не може бути порожнім"
+      edit:
+        change_password_header: "Змініть ваш пароль"
+        form:
+          new_password_label: "Новий пароль"
+          current_password_label: "Поточний пароль"
+          minimal_length_label: "символів мінімум"
+          confirm_password_label: "Підтвердіть новий пароль"
+        change_password_button: "Змінити пароль"
+      new:
+        forgot_password_header: "Забули пароль?"
+        send_instructions_button: "Надішліть мені інструкції щодо скидання пароля"
+        email_label: "Електронна пошта"
+    histories:
+      index:
+        meta-title: "Історія"
+        history_title: "Історія"
+        back_link: "Назад"
+        table:
+          version_created_at: "Дата створення версії"
+          event_ID: "ID події"
+          user_id: "ID користувача"
+          action: "Дія"
+          more_info_(field, old_value, new_value): "Додаткова інформація: поле, старе та нове значення"
+          model_type: "Тип моделі"
+  devise:
+    passwords:
+      new:
+        forgot_password_header: "Забули пароль?"
+        forgot_password_message: "Введіть свою електронну адресу, і ми надішлемо вам інструкції для скидання пароля."
+        email_placeholder: "Введіть свою ел.пошту"
+        send_instructions_button: "Скинути"
+        back_to: "Назад до"
+        form:
+          email_label: "Електронна пошта"
+      edit:
+        change_password_header: "Змініть ваш пароль"
+        form:
+          new_password_label: "Новий пароль"
+          minimal_length_label: "символів мінімум"
+          confirm_password_label: "Підтвердіть новий пароль"
+        change_password_button: "Змінити пароль"
+    sessions:
+      new:
+        meta-title: "Увійти"
+        log_in: "Увійти"
+        email_placeholder: "Введіть свою ел.пошту"
+        password_placeholder: "Введіть свій пароль"
+    shared:
+      links:
+        forgot_your_password: "Забули пароль?"
+        log_in: "Увійти"
+        sign_up: "Зареєструватися"
+        sign_in_with: "Увійти через %{provider}"
+        google_sign_in: "Увійти через Google"
+    registrations:
+      new:
+        meta-title: "Зареєструватися"
+        sign_up_header: "Зареєструватися"
+        form:
+          email_label: "Електронна пошта"
+          password_label: "Пароль"
+          password_characters_minimum_label: "Мінімум символів"
+          password_confirmation_label: "Підтвердження паролю"
+          first_name_label: "Ім'я"
+          last_name_label: "Прізвище"
+          sign_up_button: "Зареєструватися"
+          password_hint: "Мінімум 8 символів"
+      edit:
+        update_user_button: "Оновити інформацію"
+        current_password_label: "Поточний пароль:"
+        confirm_password_label: "Підтвердіть новий пароль:"
+        change_password_button: "Змінити пароль"
+        delete_account_label: "Видалити мій профіль"
+        are_user_satisfied_question: "Не сподобалося?"
+        delete_account_button: "Видалити профіль"
+        are_you_sure: "Ви впевнені, що хочете видалити профіль?"
+    confirmations:
+      new:
+        resend_confirmation_button: "Надіслати запит на підтвердження знову"
+        resend_confirmation_instructions_header: "Надіслати запит на підтвердження знову"
+    failure:
+      timeout: "Час вашої сесії вичерпано. Будь ласка, увійдіть до системи знову"
+  models:
+    calculator: "Калькулятор"
+    category: "Категорію"
+  activerecord:
+    errors:
+      models:
+        field:
+          attributes:
+            var_name:
+              unused_in_formula: "не використовується в жодній формулі"
+              calculator_var_name_uniqueness: "була використана %{count} раз"
+        formula:
+          attributes:
+            expression:
+              uninitialized_fields:
+                one: "має не ініціалізоване поле %{fields}"
+                other: "має не ініціалізовані поля %{fields}"
+              mathematically_invalid: "є математично некоректним"
+            formula_image:
+              image_size_invalid: "зображення занадто велике (понад 2 МБ)"
+              image_type_invalid: "зображення має бути у форматі JPEG або PNG."
+              first_relation_error: "некоректний немає попередньої формули"
+              last_relation_error: "некоректний немає наступної формули"
+              relation_between_two_error: "некориктний ця формула вже має зв'язок з попередньою"
+              already_have_relation_error: "формула може мати зв'язок лише з однією іншою формулою"
+        calculator:
+          attributes:
+            name:
+              blank: "не може бути порожньою"
+              too_long:
+                one: "занадто довга (максимум %{count} знак)"
+                few: "занадто довга (максимум %{count} знаки)"
+                many: "занадто довга (максимум %{count} знаків)"
+                other: "занадто довга (максимум %{count} знаків)"
+              too_short:
+                one: "занадто коротка (мінімум %{count} знак)"
+                few: "занадто коротка (мінімум %{count} знаки)"
+                many: "занадто коротка (мінімум %{count} знаків)"
+                other: "занадто коротка (мінімум %{count} знаків)"
+              taken: "вже викориcтовується, будь ласка, оберіть іншу"
+              invalid: "містить неприпустимі символи"
+        category:
+          attributes:
+            uk_name: &name_errors
+              blank: "не може бути порожньою"
+              too_long:
+                one: "занадто довга (максимум %{count} знак)"
+                few: "занадто довга (максимум %{count} знаки)"
+                many: "занадто довга (максимум %{count} знаків)"
+                other: "занадто довга (максимум %{count} знаків)"
+              too_short:
+                one: "занадто коротка (мінімум %{count} знак)"
+                few: "занадто коротка (мінімум %{count} знаки)"
+                many: "занадто коротка (мінімум %{count} знаків)"
+                other: "занадто коротка (мінімум %{count} знаків)"
+              invalid: "містить неприпустимі символи"
+              taken: "вже викориcтовується, будь ласка, оберіть іншу"
+            en_name:
+              <<: *name_errors
+        site_setting:
+          attributes:
+            title:
+              blank: "не може бути порожньою"
+              too_long:
+                one: "занадто довга (максимум %{count} знак)"
+                few: "занадто довга (максимум %{count} знаки)"
+                many: "занадто довга (максимум %{count} знаків)"
+                other: "занадто довга (максимум %{count} знаків)"
+              too_short:
+                one: "занадто коротка (мінімум %{count} знак)"
+                few: "занадто коротка (мінімум %{count} знаки)"
+                many: "занадто коротка (мінімум %{count} знаків)"
+                other: "занадто коротка (мінімум %{count} знаків)"
+        diapers_period:
+          attributes:
+            price:
+              blank: "не може бути порожньою"
+        product:
+          attributes:
+            title:
+              blank: "не може бути порожньою"
+              too_long:
+                one: "занадто довга (максимум %{count} знак)"
+                few: "занадто довга (максимум %{count} знаки)"
+                many: "занадто довга (максимум %{count} знаків)"
+                other: "занадто довга (максимум %{count} знаків)"
+              too_short:
+                one: "занадто коротка (мінімум %{count} знак)"
+                few: "занадто коротка (мінімум %{count} знаки)"
+                many: "занадто коротка (мінімум %{count} знаків)"
+                other: "занадто коротка (мінімум %{count} знаків)"
+              taken: "вже викориcтовується, будь ласка, оберіть іншу"
+              invalid: "містить неприпустимі символи"
+        price:
+          attributes:
+            sum:
+              less_than: "занадто велика"
+        user:
+          attributes:
+            email:
+              invalid: "недійсна"
+              blank: "не може бути порожньою"
+              taken: "вже зайнята, вкажіть іншу"
+            first_name:
+              invalid: "недійсне"
+              too_long: "занадто довге (максимум %{count} знаків)"
+              too_short: "занадто коротке (мінімум %{count} знаки)"
+            last_name:
+              invalid: "недійсне"
+              too_long: "занадто довге (максимум %{count} знаків)"
+              too_short: "занадто коротке (мінімум %{count} знаки)"
+            avatar:
+            content_type:
+              "%{extension}"
+              # extension_allowlist_error: "Вам заборонено завантажувати %{extension} файли, дозволені типи: %{allowed_types}"
+
+            # uk:
+            # carrierwave:
+            #   hint: "Дозволені формати: %{allowed_extensions}, рекомендоване розширення фото - %{dimension}, а максимальний розмір файлу: %{size}"
+            # errors:
+            #   messages:
+            #     carrierwave_processing_error: не вдалося обробити
+            #     carrierwave_integrity_error: не є дозволеним типом файлу
+            #     carrierwave_download_error: не вдалося завантажити
+            #     extension_denylist_error: "Вам заборонено завантажувати %{extension} файли, заборонені типи: %{prohibited_types}"
+            #     content_type_allowlist_error: "Вам заборонено завантажувати %{content_type} файли, дозволені типи: %{allowed_types}"
+            #     content_type_denylist_error: "Вам заборонено завантажувати %{content_type} файли"
+            #     processing_error: "Не вдалося опрацювати, можливо, це не зображення?"
+            #     min_size_error: "Розмір файлу має бути більшим за %{min_size}"
+            #     max_size_error: "Розмір файлу має бути менше %{max_size}"
+            #     mini_magick_processing_error: "Не вдалося опрацювати з MiniMagick, можливо, це не зображення?"
+      messages:
+        record_invalid: "Виникли помилки: %{errors}"
+        restrict_dependent_destroy:
+          has_one: "Неможливо видалити запис, оскільки існує залежність: %{record}"
+          has_many: "Неможливо видалити запис, оскільки існують залежності: %{record}"
+    form_errors:
+      one: "Одна помилка перешкоджає зберегти %{model}:"
+      few: "%{count} помилки перешкоджають зберегти %{model}:"
+    attributes:
+      user:
+        email: "Електронна пошта"
+        password: "Пароль"
+        password_confirmation: "Повторний пароль"
+        first_name: "Ім'я"
+        last_name: "Прізвище"
+        country: "Країна"
+        role: "Роль"
+        remember_me: "Запам'ятати мене"
+        successful_update: "Інформацію про користувача було успішно оновлено!"
+      admin:
+        remember_me: "Запам'ятати мене"
+      site_setting:
+        title: "Назва"
+      diapers_period:
+        price: "Ціна"
+        period_start: "Початок періоду"
+        period_end: "Кінець періоду"
+        usage_amount: "Обсяг використання"
+      calculator:
+        en_name: "Назва Англійською"
+        uk_name: "Назва Українською"
+        slug: "Шлях"
+        preferable: "Бажаний"
+      category:
+        name: "Назва"
+        en_name: "Назва Англійською"
+        uk_name: "Назва Українською"
+        priority: "Пріоритет"
+        preferable: "Основна"
+      price:
+        sum: "Сума"
+      product:
+        title: "Назва"
+      field:
+        en_label: "Назва Англійською"
+        uk_label: "Назва Українською"
+        var_name: "Змінна"
+      formula:
+        en_label: "Назва Англійською"
+        uk_label: "Назва Українською"
+        expression: "Вираз"
+  notifications:
+    calculator_created: "Калькулятор було успішно створено"
+    calculator_updated: "Калькулятор було успішно оновлено"
+    calculator_deleted: "Калькулятор було успішно видалено"
+    user_created: "Користувача було успішно створено"
+    user_updated: "Користувача було успішно оновлено"
+    user_deleted: "Користувача було успішно видалено"
+    message_sent: "Повідомлення було надіслано"
+    category_created: "Категорію було успішно створено"
+    category_updated: "Категорію було успішно оновлено"
+    category_deleted: "Категорію було успішно видалено"
+    feature_flags_updated: "Оновлено успішно"
+    site_setting_updated: "Налаштування було успішно оновлено"
+    site_setting_reverted: "Заголовок та іконку сайту успішно відновлено до стандартних"
+    diapers_period_not_deleted: "Неможливо видалити період підгузків."
+    category_diapers_period_not_deleted: "Неможливо видалити періоди підгузків з категорії."
+  # time:
+  #   formats:
+  #     long: '%A, %d %B, %Y'
+  #     short: '%d, %B, %Y'
+  date:
+    abbr_day_names:
+      - нд.
+      - пн.
+      - вт.
+      - ср.
+      - чт.
+      - пт.
+      - сб.
+    abbr_month_names:
+      -
+      - січ.
+      - лют.
+      - бер.
+      - квіт.
+      - трав.
+      - черв.
+      - лип.
+      - серп.
+      - вер.
+      - жовт.
+      - лист.
+      - груд.
+    day_names:
+      - неділя
+      - понеділок
+      - вівторок
+      - середа
+      - четвер
+      - п'ятниця
+      - субота
+    formats:
+      default: "%d.%m.%Y"
+      long: "%d %B %Y"
+      short: "%d %b"
+    month_names:
+      -
+      - Січня
+      - Лютого
+      - Березня
+      - Квітня
+      - Травня
+      - Червня
+      - Липня
+      - Серпня
+      - Вересня
+      - Жовтня
+      - Листопада
+      - Грудня
+    order:
+      - :day
+      - :month
+      - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: "близько %{count} години"
+        few: "близько %{count} годин"
+        many: "близько %{count} годин"
+        other: "близько %{count} годин"
+      about_x_months:
+        one: "близько %{count} місяця"
+        few: "близько %{count} місяців"
+        many: "близько %{count} місяців"
+        other: "близько %{count} місяців"
+      about_x_years:
+        one: "близько %{count} року"
+        few: "близько %{count} років"
+        many: "близько %{count} років"
+        other: "близько %{count} років"
+      almost_x_years:
+        one: "майже %{count} рік"
+        few: "майже %{count} роки"
+        many: "майже %{count} років"
+        other: "майже %{count} років"
+      half_a_minute: "пів хвилини"
+      less_than_x_seconds:
+        one: "менше %{count} секунди"
+        few: "менше %{count} секунд"
+        many: "менше %{count} секунд"
+        other: "менше %{count} секунд"
+      less_than_x_minutes:
+        one: "менше %{count} хвилини"
+        few: "менше %{count} хвилин"
+        many: "менше %{count} хвилин"
+        other: "менше %{count} хвилин"
+      over_x_years:
+        one: "понад %{count} року"
+        few: "понад %{count} років"
+        many: "понад %{count} років"
+        other: "понад %{count} років"
+      x_seconds:
+        one: "%{count} секунда"
+        few: "%{count} секунди"
+        many: "%{count} секунд"
+        other: "%{count} секунд"
+      x_minutes:
+        one: "%{count} хвилина"
+        few: "%{count} хвилини"
+        many: "%{count} хвилин"
+        other: "%{count} хвилин"
+      x_days:
+        one: "%{count} день"
+        few: "%{count} дні"
+        many: "%{count} днів"
+        other: "%{count} днів"
+      x_months:
+        one: "%{count} місяць"
+        few: "%{count} місяці"
+        many: "%{count} місяців"
+        other: "%{count} місяців"
+      x_years:
+        one: "%{count} рік"
+        few: "%{count} роки"
+        many: "%{count} років"
+        other: "%{count} років"
+    prompts:
+      second: "Секунда"
+      minute: "Хвилина"
+      hour: "Година"
+      day: "День"
+      month: "Місяць"
+      year: "Рік"
+
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: "може бути прийнятим"
+      blank: "не може бути порожнім"
+      confirmation: "не збігається з підтвердженням"
+      empty: "не може бути порожнім"
+      equal_to: "мусить дорівнювати %{count}"
+      even: "мусить бути парним"
+      exclusion: "є зарезервованим"
+      greater_than: "мусить бути більше ніж %{count}"
+      greater_than_or_equal_to: "мусить бути більше ніж або дорівнювати %{count}"
+      in: "має бути в %{count}"
+      inclusion: "не є включеним до переліку"
+      invalid: "не є дійсним"
+      less_than: "мусить бути менше ніж %{count}"
+      less_than_or_equal_to: "мусить бути менше ніж або дорівнювати %{count}"
+      model_invalid: "Виникли помилки: %{errors}"
+      not_a_number: "не є числом"
+      not_an_integer: "не є цілим числом"
+      odd: "мусить бути непарним"
+      other_than: "мусить відрізнятись від %{count}"
+      present: "мусить бути пустим"
+      required: "не може бути порожнім"
+      taken: "вже є зайнятим"
+      too_long:
+        one: "є занадто довгим (максимум %{count} знак)"
+        few: "є занадто довгим (максимум %{count} знаки)"
+        many: "є занадто довгим (максимум %{count} знаків)"
+        other: "є занадто довгим (максимум %{count} знаків)"
+      too_short:
+        one: "є занадто коротким (мінімум %{count} знак)"
+        few: "є занадто коротким (мінімум %{count} знаки)"
+        many: "є занадто коротким (мінімум %{count} знаків)"
+        other: "є занадто коротким (мінімум %{count} знаків)"
+      wrong_length:
+        one: "неправильна довжина (має бути %{count} знак)"
+        few: "неправильна довжина (має бути %{count} знаки)"
+        many: "неправильна довжина (має бути %{count} знаків)"
+        other: "неправильна довжина (має бути %{count} знаків)"
+    template:
+      body: "Помилки виявлено в таких полях:"
+      header:
+        one: "%{model} не збережено через %{count} помилку"
+        few: "%{model} не збережено через %{count} помилки"
+        many: "%{model} не збережено через %{count} помилок"
+        other: "%{model} не збережено через %{count} помилок"
+  helpers:
+    select:
+      prompt: "Оберіть: "
+    submit:
+      create: "Створити %{model}"
+      submit: "Зберегти %{model}"
+      update: "Зберегти %{model}"
+  number:
+    currency:
+      format:
+        delimiter: " "
+        format: "%n %u"
+        precision: 2
+        separator: ","
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "грн"
+    format:
+      delimiter: " "
+      precision: 3
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion:
+            one: "Мільярд"
+            few: "Мільярдів"
+            many: "Мільярдів"
+            other: "Мільярдів"
+          million:
+            one: "Мільйон"
+            few: "Мільйонів"
+            many: "Мільйонів"
+            other: "Мільйонів"
+          quadrillion:
+            one: "Квадрильйон"
+            few: "Квадрильйонів"
+            many: "Квадрильйонів"
+            other: "Квадрильйонів"
+          thousand:
+            one: "Тисяча"
+            few: "Тисяч"
+            many: "Тисяч"
+            other: "Тисяч"
+          trillion:
+            one: "Трильйон"
+            few: "Трильйонів"
+            many: "Трильйонів"
+            other: "Трильйонів"
+          unit: ""
+      format:
+        delimiter: ""
+        precision: 1
+        significant: false
+        strip_insignificant_zeros: false
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: "байт"
+            few: "байти"
+            many: "байтів"
+            other: "байтів"
+          eb: "ЕБ"
+          gb: "ГБ"
+          kb: "кБ"
+          mb: "МБ"
+          pb: "ПБ"
+          tb: "ТБ"
+    percentage:
+      format:
+        delimiter: ""
+    precision:
+      format:
+        delimiter: ""
+  support:
+    array:
+      last_word_connector: " та "
+      two_words_connector: " і "
+      words_connector: ", "
+  time:
+    am: "до полудня"
+    formats:
+      default: "%a, %d %b %Y, %H:%M:%S %z"
+      long: "%d %B %Y, %H:%M"
+      short: "%d %b, %H:%M"
+    pm: "пополудні"
+  breadcrumbs:
+    home: "Головна"
